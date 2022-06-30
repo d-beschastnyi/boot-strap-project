@@ -1,0 +1,213 @@
+* {
+    font-family: "Roboto" sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2;
+}
+
+.menu {
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+.menu .menu_link {
+    border-right: 2px #000 dotted;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 6px;
+}
+
+.subheader .subheader_callus {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_tel {
+    display: block;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 18px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+} 
+
+.invite {
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+}
+
+.invite .invite_hdr {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin-bottom: 0;
+    margin-top: 140px;
+}
+
+.invite .invite_subhdr {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size:36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.invite .invite_txt {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.invite .invite_btn {
+    display: block;
+    margin: 120px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.bnfts {
+    min-height: 850px;
+    background: #fff;
+}
+
+.bnfts .bnfts_wraper {
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    margin: 20px auto 0 auto;
+    
+}
+
+.bnfts .bnfts_wraper .bnfts_hdr {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+
+.bnfts .bnfts_sbhdr {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.bnfts .bnfts_all .bnfts_item {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 26px;
+}
+
+.bnfts .bnfts_all .bnfts_item .bnfts_round{
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bnfts .bnfts_all .bnfts_item .bnfts_descr{
+    display: flex;
+    align-items: top;
+}
+
+.bnfts .bnfts_all .bnfts_item .bnfts_descr .bnfts_dhdr {
+    width: 360px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;    
+    color: #1EACC7;
+    margin-left: 26px;
+}
+
+.bnfts .bnfts_all .bnfts_item .bnfts_descr .bnfts_dhdr .bnfts_dtxt {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
